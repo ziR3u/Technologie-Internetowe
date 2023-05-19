@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wybór ćwiczeń</title>
+    <link rel="stylesheet" href="workoutstyle.css">
+  </head>
+  <body>
+    <header>
+        <h1>HomeFit</h1>
+        <nav>
+          <ul>
+            <li><a href="../Landing Page/index.html">Strona Główna</a></li>
+            <li><a href="../Kalkulator BMI/bmi.html"> BMI Kalkulator</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="hero">
+    </section>
+    <main>
+        <h1>Wybierz swoje ćwiczenia</h1>
+<form id="exercise-form">
+  <div class="form-group">
+    <label for="type">Typ ćwiczeń:</label>
+    <select id="type">
+      <option value="cardio">Cardio</option>
+      <option value="siłowe">Siłowe</option>
+      <option value="kalistenika">Kalistenika</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="days">Ile dni w tygodniu chcesz ćwiczyć:</label>
+    <select id="days">
+      <option value="1">1 dzień</option>
+      <option value="2">2 dni</option>
+      <option value="3">3 dni</option>
+      <option value="4">4 dni</option>
+      <option value="5">5 dni</option>
+      <option value="6">6 dni</option>
+      <option value="7">7 dni</option>
+    </select>
+  </div>
+  <button type="submit">Wybierz ćwiczenia</button>
+</form>
+
+<div id="exercise-list"></div>
+    </main>
+    <footer>
+      <p>Kacper Kozieł &copy; 2023</p>
+    </footer>
+    <script src="workout.js">
+    </script>
+  </body>
+</html>

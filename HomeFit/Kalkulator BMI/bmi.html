@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kalkulator BMI</title>
+  <link rel="stylesheet" href="styleBMI.css">
+</head>
+<body>
+    <header>
+        <h1>HomeFit</h1>
+        <nav>
+          <ul>
+            <li><a href="../Landing Page/index.html">Strona Główna</a></li>
+            <li><a href="../Ćwiczenia/workout.html">Ćwiczenia</a></li>
+          </ul>
+        </nav>
+      </header>
+  <section id="hero">
+    <h2>Kalkulator BMI</h2>
+    <form>
+      <label>Waga (kg):</label>
+      <input type="number" name="weight" id="weight">
+      <label>Wzrost (cm):</label>
+      <input type="number" name="height" id="height">
+      <button type="submit">Oblicz</button>
+    </form>
+  </section>
+  <section id="result">
+    <h3>Twoje BMI wynosi:</h3>
+    <p id="bmi-result"></p>
+    <p id="bmi-status"></p>
+  </section>
+  <footer>
+    <p>&copy; 2023 Kacper Kozieł</p>
+  </footer>
+  <script src="script.js">
+  </script>
+</body>
+</html>
